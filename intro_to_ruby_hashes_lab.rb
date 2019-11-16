@@ -52,5 +52,5 @@ def monopoly_with_fourth_tier
 		}
 	}
 
-[:railroads][:names][:reading_railroad]["mortgage_value"]).to eq("$100")
+hash[:railroads][:names][:reading_railroad]["mortgage_value"]).to eq("$100")
 end
