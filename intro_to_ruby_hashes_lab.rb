@@ -34,7 +34,7 @@ def monopoly_with_third_tier
 end
 
 def monopoly_with_fourth_tier
-	{
+	hash = {
 		:railroads => {
 			:pieces => 4,
 			:rent_in_dollars => {
@@ -52,4 +52,5 @@ def monopoly_with_fourth_tier
 		}
 	}
 
+[:railroads][:names][:reading_railroad]["mortgage_value"]).to eq("$100")
 end
