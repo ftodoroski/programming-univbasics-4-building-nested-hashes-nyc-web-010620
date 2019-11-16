@@ -52,5 +52,5 @@ def monopoly_with_fourth_tier
 		}
 	}
 
-hash[:railroads][:names][:reading_railroad][:mortgage_value] = "$100"
+hash[:railroads][:names][:reading_railroad][:mortgage_value] = "100"
 end
